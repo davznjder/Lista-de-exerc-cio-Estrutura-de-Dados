@@ -1,15 +1,16 @@
 #include <stdio.h>
 
 int main() {
-    int num, i;
-    
-    printf("Digite um número inteiro: ");
-    scanf("%d", &num);
-    
-    printf("Os 5 sucessores de %d são:\n", num);
-    
-    for(i = 1; i <= 5; i++){
-        printf("%d\n", num + i);
-     }
-    return 0;
+
+    int x;
+
+        printf("Digite um valor inteiro:");
+        scanf("%d", &x);
+
+        printf("Os sucessores deste numero sao: \n");
+
+        for(int i=1; i<=5; i++){
+            printf("%d\n", x+i);
+        }
+        return 0;
 }
